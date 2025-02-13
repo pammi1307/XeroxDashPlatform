@@ -22,7 +22,7 @@ Managers: Oversee document approval workflows.
 Auditors: Monitor document access and changes.
 
 # Spring Boot Workflow Architecture
-![image](https://github.com/pammi1307/XeroxDashPlatform/documents/springWorkFlow.png)
+![image](https://github.com/pammi1307/XeroxDashPlatform/blob/main/documents/springWorkFlow.png)
 
 Controller Layer: Manages incoming HTTP requests, validates input, and delegates business logic. Annotated with @RestController or @Controller.
 Service Layer: Contains business logic, connects with repositories, and handles complex tasks. Annotated with @Service.
@@ -31,14 +31,14 @@ Model Layer: Represents data entities, corresponds to database tables or collect
 
 # Detailed Design
 # Use Case Diagram
-![chatuml-diagram](https://github.com/pammi1307/XeroxDashPlatform/documents\usecaseDiagram.png)
+![usecase-diagram](https://github.com/pammi1307/XeroxDashPlatform/blob/main/documents/usecaseDiagram.png)
 
-ADMIN: Ensures registration of authentic XEROXSHOPS.
+ADMIN: Ensures registration of authentic XEROXSHOPS. 
 XEROXSHOPS: Responsible for accepting and managing orders.
 CUSTOMER and STUDENT users: Place orders and track their progress.
 
 # Database Design
-![image](https://github.com/pammi1307/XeroxDashPlatform/documents/databaseDesign.png)
+![image](https://github.com/pammi1307/XeroxDashPlatform/blob/main/documents/databaseDesign.png)
 
 The database design includes tables for user management, document metadata, document versions, workflow configurations, and audit logs. It ensures data integrity and efficient querying.
 
